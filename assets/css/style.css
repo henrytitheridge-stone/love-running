@@ -62,9 +62,9 @@ nav {
     position: absolute;
     background-color: #ffffff;
     width: 100%;
+    left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
-    left: 0;
     display: none;
     top: 100%;
 }
@@ -113,6 +113,34 @@ main {
     color: #ffffff;
 }
 
+/* Reasons section */
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits-physical > div,
+#benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -135,7 +163,7 @@ main {
         display: block;
         position: relative;
         box-shadow: none;
-        width:fit-content;
+        width: fit-content;
         padding-right: 1rem;
     }
 
@@ -159,7 +187,7 @@ main {
 
     /* Main content */
     main {
-        /* Push main content down to accomodate larger header */
+        /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
 
